@@ -1,2 +1,2 @@
-# pelilounge-games-ppc-social-casino
-Repository for pelilounge.games
+# Pelilounge Social Casino
+Repository for Pelilounge games site at pelilounge.games

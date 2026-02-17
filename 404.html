@@ -14,13 +14,13 @@
    font-display: swap;
   }
   :root {
-   --ink: #1b1a16;
-   --ink-soft: #3a352d;
+   --ink: #171512;
+   --ink-soft: #2e2b24;
    --frost: #f7fbff;
-   --mist: rgba(255, 255, 255, 0.75);
-   --teal: #1f9ea0;
-   --coral: #ff7a59;
-   --gold: #f6b247;
+   --mist: rgba(244, 233, 220, 0.75);
+   --teal: #1b8a8b;
+   --coral: #e46a4f;
+   --gold: #d89f3b;
    --shadow: 0 30px 60px rgba(27, 26, 22, 0.18);
   }
   * {
@@ -35,10 +35,10 @@
    font-family: "Sefairy", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
    color: var(--ink);
    background:
-    radial-gradient(600px 280px at 10% 15%, rgba(255, 122, 89, 0.25), transparent 60%),
-    radial-gradient(520px 320px at 90% 20%, rgba(31, 158, 160, 0.22), transparent 60%),
-    radial-gradient(700px 380px at 20% 90%, rgba(246, 178, 71, 0.18), transparent 70%),
-    linear-gradient(160deg, #fff7ee 0%, #f0fbff 50%, #fff3ea 100%);
+    radial-gradient(600px 280px at 10% 15%, rgba(229, 105, 82, 0.28), transparent 60%),
+    radial-gradient(520px 320px at 90% 20%, rgba(27, 134, 143, 0.23), transparent 60%),
+    radial-gradient(700px 380px at 20% 90%, rgba(216, 159, 59, 0.2), transparent 70%),
+    linear-gradient(160deg, #efd9c6 0%, #d4e8f1 50%, #ece0cd 100%);
    overflow: hidden;
   }
   main {
@@ -59,7 +59,7 @@
    position: absolute;
    inset: -30px;
    border-radius: 36px;
-   background: linear-gradient(120deg, rgba(31, 158, 160, 0.18), rgba(255, 122, 89, 0.2));
+   background: linear-gradient(120deg, rgba(27, 134, 143, 0.2), rgba(229, 105, 82, 0.22));
    filter: blur(18px);
    opacity: 0.7;
    z-index: -1;
@@ -67,7 +67,7 @@
   .badge {
    padding: 6px 14px;
    border-radius: 999px;
-   background: rgba(31, 158, 160, 0.15);
+   background: rgba(27, 134, 143, 0.17);
    font-size: 0.75rem;
    letter-spacing: 1.6px;
    text-transform: uppercase;
@@ -103,8 +103,8 @@
    width: 8px;
    height: 8px;
    border-radius: 50%;
-   background: rgba(255, 255, 255, 0.75);
-   box-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+   background: rgba(244, 233, 220, 0.75);
+   box-shadow: 0 0 12px rgba(244, 233, 220, 0.7);
    animation: drift 7s linear infinite;
   }
   .snow span:nth-child(1) { left: 10%; top: -10%; animation-delay: 0s; }
@@ -137,7 +137,12 @@
     animation-iteration-count: 1 !important;
    }
   }
- </style>
+
+  body {
+   background: linear-gradient(180deg, #e8f4ff 0%, #d4e9ff 45%, #c6e3ff 100%);
+  }
+
+</style>
 </head>
 <body>
  <div class="snow" aria-hidden="true">
@@ -152,9 +157,15 @@
   <div class="halo" aria-hidden="true"></div>
   <div class="badge">Aurora Drift</div>
   <h1 id="page-title">404</h1>
-  <p class="lead">This winter path does not exist.</p>
+  <p class="lead">That page cannot be found.</p>
   <div class="divider" aria-hidden="true"></div>
-  <p class="hint">Check the address or use your browser back button to return.</p>
+<p class="hint">Please verify the URL or use your browser's back button to return.</p>
  </main>
 </body>
 </html>
+
+
+
+
+
+
